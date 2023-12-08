@@ -25,7 +25,8 @@ nav li{
     font-weight: 500; 
 }
 
-.navtitle{
+.navtitle
+{
     font-size: 45px;
     font-style: normal;
     font-weight: 700;
@@ -65,5 +66,25 @@ nav li{
     border: 0;
 }
 .p img{
+    margin-top: 30px;
     width: 100%;
 }
+
+/*Responsive for mobile */
+@media screen and (max-width:576px) {
+    header{
+        padding:20px;
+    }
+    nav{
+        flex-direction: column;
+    }
+}
+@media screen and (min-width:576px) and (max-width:960px {
+    header{
+        padding:50px;
+    }
+    nav{
+        flex-direction: column;
+    }
+}
+
