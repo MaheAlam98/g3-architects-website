@@ -109,7 +109,30 @@ main{
 
 }
 
+.cart{
+   border: 2px solid black;
+   text-align: center;
+   padding: 30px;
+}
 
+.cart_section{
+    display: flex;
+    justify-content: space-around;
+    margin-top:100px;
+    
+}
+
+.cart_num{
+    color: #424242;
+    font-weight: 600;
+    font-size: 45px;
+}
+.cart_name{
+
+    color: #727272;
+    font-size: 20px;
+    font-weight: 600;
+}
 
 /*Responsive for mobile */
 @media screen and (max-width:576px) {
@@ -117,7 +140,7 @@ main{
         padding:20px;
     }
     nav,
-    .container_img
+    .container
     {
         flex-direction: column;
     }
@@ -126,7 +149,9 @@ main{
     header{
         padding:50px;
     }
-    nav{
+    nav,
+    .container
+    {
         flex-direction: column;
     }
 }
