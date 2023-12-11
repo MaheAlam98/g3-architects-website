@@ -55,6 +55,9 @@ nav li{
    background: #FF900E;
    text-align: center;
    padding: 42px ;
+   position: relative;
+  bottom: 100px;
+
 }
 .first{
    color:  #FFF;
@@ -228,6 +231,10 @@ main{
         padding: 30px 20px;
   
     }
+    .box_img img{
+        width: 100%;
+        margin-left: 0;
+    }
     .mid{
         flex-direction: column;
      margin: 0px;
@@ -240,7 +247,8 @@ main{
     }
     nav,
     .container,
-    .mid
+    .mid,
+    .box_img img
     
     {
         flex-direction: column;
